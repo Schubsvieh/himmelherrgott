@@ -18,6 +18,22 @@ p {
 
 
 
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-width: thin 0 0 thin;
+	margin: 0 0 1em;
+	table-layout: auto;
+	max-width: 70%;
+  }
+  
+  td {
+
+	min-width:50%;
+  }
+
+
 #col1 {
 	
 	
@@ -35,12 +51,6 @@ p {
 	
 }
 
-#col3 {
-	
-	max-width: 60%;
-	margin-left: 10%;
-	
-}
 
 h1{
 	font-family:'Courier New', Courier, monospace;
@@ -49,6 +59,8 @@ h1{
 	margin:0px;
 	color: #6b6b6b;
 }
+
+
 h2{
 	font-family: 'Montserrat', sans-serif;
 	font-size:29px;
